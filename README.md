@@ -49,16 +49,11 @@ This project will be forked into the [ksu-hmi GitHub organization](https://githu
 
 ## 📍 Project Roadmap
 
-**Sprint 1:** 
+This project follows a structured development process with 3 sprints: setup, development, and presentation.
 
-- [ ] Fork and clone the [radiant repository](https://github.com/trnle/radiant) into the `ksu-hmi` GitHub organization.
-- [ ] Evaluate the cloned repository and document any issues or insights.
-- [ ] Set up the project structure with directories: `routines`, `ingredients`, and `images`.
-- [ ] Develop a basic interface using Streamlit for user input of skincare routines.
-- [ ] Update the `README.md` with current project information.
-- [ ] Create a `LICENSE` file using the [MIT License](https://choosealicense.com/licenses/mit/).
-- [ ] Research the [skincare-routine-helper](https://github.com/florating/skincare-routine-helper) repository for potential integration.
-- See ROADMAP.md file for more detailed breakdown.
+Work includes: forking and cloning the [`radiant`](https://github.com/trnle/radiant) repository into the `ksu-hmi` GitHub organization, evaluating the cloned code, setting up project directories (`routines`, `ingredients`, `images`), and developing a basic Streamlit interface for skincare routine tracking. Additional tasks include researching the [`skincare-routine-helper`](https://github.com/florating/skincare-routine-helper) repo for more ideas.
+
+📄 View the full [Project Roadmap here](projectroadmap.md) to see tasks, deadlines, and progress across each sprint.
 ---
 
 ## Contributor
