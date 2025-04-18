@@ -1,0 +1,70 @@
+#journal-page {
+  min-height: 100%;
+  position: relative;
+  margin: 130px 19vw 0;
+  animation: fadeInAnimation ease 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#journal-page h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#progress-sub {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#entries-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.entry-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e7e5e5;
+  /* max-height: 10em; */
+  width: 200px;
+  height: 90px;
+  margin: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 0px 1px 4px 0px rgb(231, 231, 231);
+}
+
+.entry-info:hover {
+  background-color: #f8f8f8;
+}
+
+.entry-info h4 {
+  text-align: center;
+  margin: 0 0 3px;
+}
+
+.entry-info p {
+  text-align: center;
+  margin: 5px;
+}
+
+#journal-page .react-tabs__tab-list {
+  border-color: #e7e5e5;
+}
+
+.react-tabs__tab--selected {
+  border-color: #e7e5e5;
+}
+
+.react-tabs__tab--selected:focus {
+  box-shadow: none;
+  border-color: #e7e5e5;
+}
