@@ -1,0 +1,85 @@
+nav {
+  top: 0;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav {
+  display: flex;
+  padding: 18px 10em;
+}
+
+.session-links {
+  display: flex;
+}
+
+#left-bar-links {
+  display: flex;
+  align-items: center;
+  margin: 0 1.7em;
+  bottom: 3px;
+  position: relative;
+}
+
+#right-bar-links {
+  display: flex;
+  position: absolute;
+  right: 10em;
+}
+
+#right-bar-links a {
+  margin: 0 1.7em;
+}
+
+#radiant-home {
+  font-family: abril-fatface, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 26px;
+}
+
+#products-nav.active, #routine-nav.active, #journal-nav.active, #guide-nav.active {
+  color: #e5aa8b;
+}
+
+#login-nav.active, #signup-nav.active {
+  color: #79B3C2;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin-top: 43px;
+  padding: 12px 0;
+  right: -10px;
+}
+
+.dropdown-menu div {
+  padding: 8px 0;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+#profile-btn {
+  background-color: white;
+  box-shadow: none;
+}
+
+.fa-cog {
+  color: #1C2237;
+  font-size: 18px;
+}

@@ -4,67 +4,60 @@ This roadmap tracks the key milestones and tasks for the development of **SkinSe
 
 ---
 
-## ✅ Sprint 1: Project Setup & Exploration  
-**Goal:** Lay the foundation of the SkinSense project. Set up the repository, evaluate similar projects, and begin planning key features.
+## ✅ Sprint 1: Setup & Exploration
 
-### Tasks
+**Goals:**  
+- Set up the project repo  
+- Review related repositories  
+- Begin outlining features and structure
 
-- [x] ✅ Choose and submit project topic (SkinSense)
-- [x] ✅ Join KSU-HMI GitHub organization
-- [x] ✅ Accept repo ownership/maintainer role
-- [x] ✅ Create and commit a custom `README.md`
-- [x] ✅ Fork and clone [radiant](https://github.com/trnle/radiant)
-- [x] ✅ Explore the radiant codebase and document findings
-- [x] ✅ Create this `projectroadmap.md` file and start tracking tasks
+### Tasks:
+- [x] Fork and clone the `radiant` repository into the `ksu-hmi` GitHub organization
+- [x] Upload core files from `radiant` to `references/radiant/` inside `SkinSense`
+- [x] Evaluate the structure and code of the `radiant` repo
+- [x] Create initial project folders: `routines/`, `ingredients/`, `images/`
+- [x] Create and structure `README.md`
+- [x] Assign open source license (MIT)
+- [x] Set up `projectroadmap.md` with Sprint 1 tasks
 
-### Exploration Notes
-
-- While reviewing the radiant repo, I gained ideas for how to design SkinSense’s layout and user input forms using Streamlit.
-
----
-
-## 🚧 Sprint 2: Development Begins  
-**Goal:** Start coding SkinSense features and document meaningful updates with commit messages.
-
-### Core Tasks
-
-- [ ] Set up basic Streamlit interface for logging skincare routines
-- [ ] Add input fields for product name, time of day (AM/PM), and skin notes
-- [ ] Create placeholder structure for ingredient analysis page
-- [ ] Build logic to store and display daily routines
-- [ ] Write and commit code changes with clear commit messages (6+ commits)
-
-### Example Commit Tasks
-
-- [ ] Build “Add Skincare Product” form in Streamlit
-- [ ] Set up basic data model (local storage or CSV)
-- [ ] Add styling and layout improvements
-- [ ] Create test data and try first user entry
-- [ ] Document fixes or improvements from testing
-- [ ] Add footer or extra interface options
-
-### Required URLs for Submission
-
-- [ ] Paste 2 code commit URLs here (with descriptions)
+### Exploration Notes:
+- The `radiant` repo helped me understand how Streamlit can handle user input forms and layout.
+- The [`skincare-routine-helper`](https://github.com/florating/skincare-routine-helper) repo provided additional ideas for how to organize skincare routine data, structure entries, and handle product information.
+- Only essential files were included in my repo to keep things clean.
+- Future interface layout ideas may be inspired by `radiant`'s form handling.
 
 ---
 
-## 🚀 Sprint 3: Polish and Presentation   
-**Goal:** Finalize features, polish the interface, and communicate your project to others.
+## 🔄 Sprint 2: Development Begins
 
-### Final Development
+**Goals:**  
+- Start building core features  
+- Make multiple commits to track progress  
+- Continue documenting work
 
-- [ ] Improve UI styling in Streamlit
-- [ ] Add functionality to analyze skincare ingredients
-- [ ] Allow user to filter or review past routine entries
-- [ ] Fix bugs and test across use cases
+### Tasks:
+- [ ] Define core features of SkinSense (e.g., log routines, track ingredients, add notes)
+- [ ] Build a basic Streamlit layout (sidebar, entry form, submit button)
+- [ ] Create starter Python scripts inside `routines/` and `ingredients/`
+- [ ] Upload screenshots or mockups to `images/` (if available)
+- [ ] Make at least 6 meaningful commits with clear commit messages
+- [ ] Update `README.md` if any features or tech tools change
+- [ ] Reflect on development challenges or progress in roadmap file
 
-### Presentation Slide
+---
 
-- [ ] Create a single PowerPoint slide introducing SkinSense
-  - [ ] Include: Project name, tagline, your name
-  - [ ] Show 1–2 screenshots or mockups
-  - [ ] Clearly explain what the tool does
-  - [ ] Upload to GitHub repo and D2L
+## 🔄 Sprint 3: Finalization & Presentation
+
+**Goals:**  
+- Finalize app structure  
+- Prepare visuals and summary for project review  
+- Submit deliverables
+
+### Tasks:
+- [ ] Add final styling or improvements to the Streamlit interface
+- [ ] Clean up file structure and remove unused content
+- [ ] Upload PowerPoint slide introducing the project (with screenshots and summary)
+- [ ] Ensure `README.md`, license, and roadmap are complete and accurate
+- [ ] Final commit and push before deadline
 
 ---
