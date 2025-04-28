@@ -4,7 +4,7 @@ This roadmap tracks the key milestones and tasks for the development of **SkinSe
 
 ---
 
-## ✅ Sprint 1: Setup & Exploration
+## 🚀 Sprint 1: Setup & Exploration
 
 **Goals:**  
 - Set up the project repo  
@@ -12,13 +12,13 @@ This roadmap tracks the key milestones and tasks for the development of **SkinSe
 - Begin outlining features and structure
 
 ### Tasks:
-- [x] Fork and clone the `radiant` repository into the `ksu-hmi` GitHub organization
-- [x] Upload core files from `radiant` to `references/radiant/` inside `SkinSense`
-- [x] Evaluate the structure and code of the `radiant` repo
-- [x] Create initial project folders: `routines/`, `ingredients/`, `images/`
-- [x] Create and structure `README.md`
-- [x] Assign open source license (MIT)
-- [x] Set up `projectroadmap.md` with Sprint 1 tasks
+- ✅ Fork and clone the `radiant` repository into the `ksu-hmi` GitHub organization
+- ✅ Upload core files from `radiant` to `references/radiant/` inside `SkinSense`
+- ✅ Evaluate the structure and code of the `radiant` repo
+- ✅ Create initial project folders: `routines/`, `ingredients/`, `images/`
+- ✅ Create and structure `README.md`
+- ✅ Assign open source license (MIT)
+- ✅ Set up `projectroadmap.md` with Sprint 1 tasks
 
 ### Exploration Notes:
 - The `radiant` repo helped me understand how Streamlit can handle user input forms and layout.
@@ -28,21 +28,19 @@ This roadmap tracks the key milestones and tasks for the development of **SkinSe
 
 ---
 
-## 🔄 Sprint 2: Development Begins
+## 🚀 Sprint 2: Development Progress
 
-**Goals:**  
-- Start building core features  
-- Make multiple commits to track progress  
-- Continue documenting work
+✅ Build a basic Streamlit layout for logging skincare routines  
+✅ Create an input form for products, reactions, and skin type  
+✅ Implement saving submitted routines into a CSV file  
+✅ Upload screenshots of the app to the images/ folder  
+✅ Create starter Python files inside routines/ and ingredients/ folders  
+✅ Make multiple meaningful commits to show steady progress  
 
-### Tasks:
-- [ ] Define core features of SkinSense (e.g., log routines, track ingredients, add notes)
-- [ ] Build a basic Streamlit layout (sidebar, entry form, submit button)
-- [ ] Create starter Python scripts inside `routines/` and `ingredients/`
-- [ ] Upload screenshots or mockups to `images/` (if available)
-- [ ] Make at least 6 meaningful commits with clear commit messages
-- [ ] Update `README.md` if any features or tech tools change
-- [ ] Reflect on development challenges or progress in roadmap file
+**Next Steps for Sprint 3:**
+- Prepare a simple PowerPoint slide summarizing the project
+- Add more visual polish to the app if time allows (optional)
+- Continue adding screenshots or examples if features expand
 
 ---
 
