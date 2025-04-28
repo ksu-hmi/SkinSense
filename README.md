@@ -6,49 +6,64 @@ This software helps users track their daily skincare routines while providing de
 
 ---
 
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure](#-project-structure)
+- [Development Tools](#development-tools)
+- [Project Roadmap](#-project-roadmap)
+- [Contributor](#contributor)
+- [Educational Purpose](#educational-purpose)
+- [License](#-license)
+- [Credits & Inspiration](#-credits--inspiration)
+
+---
 ## Features
 
 - Track morning and evening skincare routines
 - Add notes about how your skin reacts to products
 - Learn about ingredients and how they affect your skin
-- Get suggestions based on your skin type and goals
+- Submit routines which are automatically saved to a CSV database
 - Stay informed with skincare tips and resources
 
 ---
 
-## Getting Started
+## 📋 Project Structure
 
-This project is being developed inside the `ksu-hmi` GitHub organization and is currently in early planning and coding phases.
-
----
-
-## 📋 Planned Structure
-
+- `app.py` – main Streamlit application
 - `routines/` – code to log daily skincare routines
 - `ingredients/` – ingredient lookup and data
-- `images/` – screenshots and UI mockups (coming soon)
-- `README.md` – main project overview
+- `images/` – screenshots of the running app
+- `projectroadmap.md` – project sprint planning and task tracking
+- `README.md` – project overview and setup instructions
 - `LICENSE` – open source license (MIT)
+- `routine_log.csv` – file that automatically saves skincare entries
 
 ---
 
 ## Development Tools
 
 - Python
-- Streamlit (for a simple user interface)
-- Markdown for documentation
+- Streamlit (for the web app)
+- Markdown (for documentation)
 
 ---
 
 ## 🗂️ Project Roadmap
 
-View the full [Project Roadmap here](projectroadmap.md) to see tasks, deadlines, and progress across each sprint.
+View the full [Project Roadmap](https://github.com/ksu-hmi/SkinSense/blob/main/projectroadmap.md) to see tasks and progress across each sprint.
 
 ---
 
 ## Contributor
 
 - Claude Kamgna
+
+---
+
+## Educational Purpose
+
+This project was created as part of an educational assignment for academic purposes. It is not intended for commercial use. SkinSense was developed to demonstrate skills in Python, Streamlit, GitHub, and project management practices.
 
 ---
 
