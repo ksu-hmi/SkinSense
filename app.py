@@ -1,4 +1,6 @@
 import streamlit as st
+import csv
+import os
 
 # Basic Page Setup
 st.set_page_config(page_title="SkinSense", layout="centered")
@@ -26,3 +28,12 @@ if submitted:
     st.write("Products Used: " + products_used)
     st.write("Skin Reaction Notes: " + skin_reaction)
     st.write("Skin Type: " + skin_type)
+
+     # Save to CSV
+    file_exists = os.path.isfile('routine_log.csv')
+    
+    with open('routine_log.csv', mode='a', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        if not file_exists:
+            writer.writerow(["Routine Type", "Products Used", "Skin Reaction", "Skin Type"])
+        writer.writerow([routine_type, products_used, skin_reaction, skin_type])
