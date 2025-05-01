@@ -51,5 +51,5 @@ This project was created as part of an educational assignment for academic purpo
 This project uses the [MIT License](LICENSE). 
 
 ## ✨ Credits & Inspiration  
-- [radian](https://github.com/trnle/radiant) 
+- [radiant](https://github.com/trnle/radiant) 
 - [skincare-routine-helper](https://github.com/florating/skincare-routine-helper)  
