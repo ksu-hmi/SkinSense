@@ -4,14 +4,14 @@ A Personalized Skincare Tracker and Ingredient Guide
 This software helps users track their daily skincare routines while providing detailed insights into the ingredients in the products they use. It aims to help users understand how specific ingredients affect their skin, ensuring they make informed decisions for their skincare routine.
 
 ## Table of Contents  
-Features  
-Project Structure  
-Development Tools  
-[Project Roadmap](projectroadmap.md)  
-Contributor  
-Educational Purpose  
-[License](LICENSE)
-Credits & Inspiration  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Development Tools](#development-tools)  
+- [Project Roadmap](#project-roadmap)  
+- [Contributor](#contributor)  
+- [Educational Purpose](#educational-purpose)  
+- [License](#license)  
+- [Credits & Inspiration](#credits--inspiration)   
 
 ## Features  
 - Track morning and evening skincare routines  
