@@ -166,6 +166,17 @@ if product_data is not None:
                 "- 4.2 – 4.4 → Good: Well-formulated with minor drawbacks  \n"
                 "- Below 4.2 → Fair: Mixed reviews or contains common irritants"
             )
+
+            # Show matching product image if available
+            base_name = match.iloc[0]["product_name"]
+            image_path_jpg = "images/" + base_name + ".jpg"
+            image_path_png = "images/" + base_name + ".png"
+
+            if os.path.isfile(image_path_jpg):
+                st.image(image_path_jpg, caption="Product Image", width=300)
+            elif os.path.isfile(image_path_png):
+                st.image(image_path_png, caption="Product Image", width=300)
+
         else:
             st.warning("Product not found. Please check the spelling.")
 else:
