@@ -25,7 +25,7 @@ This software helps users track their daily skincare routines while providing de
 - `app.py` – main Streamlit application, now includes product image display logic  
 - `routines/` – code to log daily skincare routines  
 - `ingredients/` – ingredient lookup and data  
-- `images/` – contains product images used in app display  
+- `images/` – contains product images and app UI screenshots  
 - `projectroadmap.md` – project sprint planning and task tracking  
 - `README.md` – project overview and setup instructions  
 - `LICENSE` – open source license (MIT)  
