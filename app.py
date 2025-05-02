@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 import csv
 import os
 import pandas as pd
@@ -31,7 +31,7 @@ set_background("images/background.jpg")
 st.markdown("""
     <style>
         h1 {
-            color: #FF7F50 !important;  /* Peach/Dark Coral */
+            color: #FF7F50 !important;
             text-align: center;
         }
         h4 {
@@ -49,14 +49,31 @@ st.markdown("""
             background-color: #ffffff;
             color: black;
             border-radius: 8px;
+            caret-color: #FF7F50 !important;  /* Coral caret for visibility */
         }
+
+        /* 🔧 Tabs - Bolder, Larger, More Readable */
         .stTabs [role="tab"] {
-            font-weight: bold;
-            font-size: 22px;
+            font-weight: bold !important;
+            font-size: 22px !important;
             color: black !important;
+            padding: 8px 16px !important;
+        }
+        .stTabs [role="tab"] span {
+            font-size: 26px !important;
+            font-weight: bold !important;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
         .stTabs [aria-selected="true"] {
             border-bottom: 3px solid #FF7F50;
+        }
+
+        /* 🌸 Tip text (caption) in coral */
+        .css-15zrgzn {
+            color: #FF7F50 !important;
+            font-weight: 600;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -69,7 +86,7 @@ except:
     product_data = None
 
 # --- Tabs ---
-tabs = st.tabs(["\U0001F4D6 Welcome", "\U0001F50D Ingredient & Product Search", "\U0001F9F4 Log Your Routine"])
+tabs = st.tabs(["📖 Welcome", "🔍 Ingredient & Product Search", "🧴 Log Your Routine"])
 
 # --- Welcome Page ---
 with tabs[0]:
