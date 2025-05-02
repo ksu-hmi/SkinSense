@@ -24,7 +24,7 @@ This roadmap tracks the key milestones and tasks for the development of SkinSens
 
 **Exploration Notes:**
 
-- The `radiant` repo helped me understand how Streamlit can handle user input forms and layout.  
+- The `radiant` repo gave me ideas for building my own form and layout structure in Streamlit, even though it was built with Flask and React.  
 - The `skincare-routine-helper` repo provided ideas for how to organize skincare data and product info.  
 - Only essential files were included in my repo to keep things clean.  
 - Future interface layout ideas may be inspired by these references.  
@@ -71,13 +71,13 @@ This roadmap tracks the key milestones and tasks for the development of SkinSens
 **Tasks:**
 
 - ✅ Added support for displaying product images (PNG and JPG) from the `images/` folder  
-- ✅ Adjusted image rendering to use `width=300` for consistent display sizing   
-- ✅ Changed SkinSense title color to peach  
+- ✅ Adjusted image rendering to use `width=300` for consistent display sizing    
 - ✅ Expanded `product_ingredients.csv` to 25 total products  
 - ✅ Confirmed CSV product names match filenames for image display  
 - ✅ Improved routine logging and file path structure  
 - ✅ Cleaned unused files and verified app.py is in root, not `routines/`  
-- ✅ Verified ingredient dictionary fully covers all ingredients from CSV  
+- ✅ Verified ingredient dictionary fully covers all ingredients from CSV
+- ✅ Uploaded Splash Screen PDF per my project requirements 
 - ✅ Maintained organized commit messages throughout updates  
 
 **Progress Notes:**
@@ -88,3 +88,11 @@ This roadmap tracks the key milestones and tasks for the development of SkinSens
 - All changes are saved, committed, and GitHub-ready  
 
 ---
+
+## 📌 Future Goals
+
+- [ ] Implement user authentication for personalized routine tracking  
+- [ ] Add ingredient safety ratings and alerts for potential irritants  
+- [ ] Introduce export options to PDF or calendar formats  
+- [ ] Develop a dark mode toggle for user preference  
+- [ ] Continue UI and UX improvements to enhance accessibility and usability
