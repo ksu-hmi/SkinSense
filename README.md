@@ -1,4 +1,4 @@
-## ✨ SkinSense
+## 🌿 SkinSense
 A Personalized Skincare Tracker and Ingredient Guide
 
 This software helps users track their daily skincare routines while providing detailed insights into the ingredients in the products they use. It aims to help users understand how specific ingredients affect their skin, ensuring they make informed decisions for their skincare routine.
@@ -37,6 +37,7 @@ This software helps users track their daily skincare routines while providing de
 - Markdown (for documentation)  
 - pandas (for data handling)  
 - os and csv (for file operations)  
+- base64 (for encoding background image as inline HTML) 
 
 ## 🗂️ Project Roadmap  
 View the full [Project Roadmap](projectroadmap.md) to see tasks and progress across each sprint.  
